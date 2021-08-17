@@ -1,0 +1,139 @@
+body{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+ul {
+padding: 0px!important;
+}
+.menu-principal{
+width: 100%;
+background-color: #252323;
+height: 60px;
+}
+main{
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+.logo{
+float:  left;
+padding: 16px;
+width:  70%;
+}
+.header1-right ul li{
+margin-left: 16px;
+display: inline-block;
+list-style: none;
+}
+.header1-right ul li a{
+color: #8b8b8b;
+text-decoration: none;
+font-size: 20px;
+text-transform: capitalize;
+}
+.header1-right{
+width: 24%;
+float: right;
+}
+.header-2{
+background-color: #ffffff;
+width: 980px;
+margin: 0 auto;
+padding: 4px;
+}
+.menu-urls{
+height: 60px;
+border-bottom: 3px solid #efefef;  
+}
+.menu ul li{
+display: inline-block;
+color: #8b8b8b;
+margin-left: 15px;
+height: 40px;
+}
+.menu ul li:hover{
+border-bottom: 2px solid #00bac6;
+}
+.menu ul li a:hover{
+color: #00bac6;
+height: 50px;
+}
+.menu ul li a{
+color: #8b8b8b;
+text-decoration: none;
+font-size: 20px;
+text-transform: capitalize;
+}
+.menu{
+float:  left;
+width:  70%; 
+}
+.busca{
+text-align: center;
+width:  30%;
+float:  right;
+}
+.busca input{
+background-image: url('../img/icone-search.png');
+background-repeat: no-repeat;
+height: 20px;
+padding: 5px;
+width: 170px;
+margin-top: 11px;
+background-position: 96%;
+border: 1px solid #d6d6d6;
+}
+.col-100{
+width:100%;
+text-align: left;
+float: left;
+position: relative;
+}
+
+.main-div{
+width:100%;
+height: 700px; 
+background-color: #8d3636;
+justify-content: center;
+text-align: center;
+display: inline-block;
+position: relative;
+}
+
+.main-txt{
+background-color: #00bac6;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 25vh;
+height: 150px;
+width: 100%;
+}
+
+.dino-text {
+margin: 0 auto;
+font-size: 92px;
+line-height: 98px;
+text-transform: uppercase;
+color: rgb(10, 109, 43);
+}
+.dino-slogan {
+margin: 0 auto;
+font-size: 24px;
+text-align: center;
+font-family: Inter;
+letter-spacing: .5px;
+color: rgb(10, 109, 43);
+}
+.invite-text{
+font-size: 24px;
+text-transform: uppercase;
+color: #fff;
+text-decoration: none;
+}
+footer{
+background: #050b06;
+height: 118px;
+}
