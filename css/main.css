@@ -24,8 +24,12 @@ position: relative;
 
 .logo {
 float: left;
-padding: 16px;
+padding: 1px;
 width: 37%;
+}
+
+.logo img{
+width: 157px;
 }
 
 .redes-sociais ul li {
@@ -71,15 +75,6 @@ font-family: 'Anton', sans-serif;
 /*font-family: 'PT Serif', serif;*/
 }
 
-.col-3 {
-text-align: center;
-padding-left: 15px;
-padding-right: 15px; 
-width: 29%;
-float: left;
-position: relative;
-}
-
 .bloco-texto {
 margin-top: 10em;
 }
@@ -91,10 +86,6 @@ color: #fff;
 text-decoration: none;
 }
 
-.col-3 img{
-cursor: pointer;
-}
-
 .col-4 {
 float: left;
 width: 25%;
@@ -102,10 +93,10 @@ text-align: left;
 }
 
 .col-4 img {
-cursor: pointer;
 margin: 0 auto;
 padding-top: 2em;
 vertical-align: middle;
+width: 192px;
 }
 
 .footer {
@@ -129,7 +120,7 @@ font-size: 14px;
 }
 
 .footer-2 p {
-padding: 10px;
+padding: 3px;
 }
 
 .footer a{
@@ -163,7 +154,7 @@ text-decoration: none;
 padding: 10px 30px;
 background-color: rgb(15, 97, 19);
 font-size: .9em;
-border-radius: 3px;
+border-radius: 8px;
 }
 
 .botao:hover{
