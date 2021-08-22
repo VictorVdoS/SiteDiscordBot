@@ -15,7 +15,7 @@ body {
 
 #header.active {
   position: fixed;
-  background: #fff;
+  background: #322f2f;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
   z-index: 9999;
 }
@@ -50,14 +50,32 @@ body {
   color: var(--secondary);
 }
 
-#slider h4 {
+#slider h2, h4{
   font-size: 18px;
   text-transform: uppercase;
-   color: var(--primary);
+  color: var(--primary);
+}
+#slider h3, p {
+  font-size: 18px;
+  color: var(--primary);
+}
+
+#adm, #games, #info, #midia, #outros, p, h3 {
+  font-size: 16px;
+  color: var(--primary);
+  margin-top: 12px;
+}
+
+#comandos {
+  background-color: #322f2f;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 #header .img-fluid {
-width: 192px;
+width: 300px;
+
 }
 #contato .img-fluid {
 width: 192px;
